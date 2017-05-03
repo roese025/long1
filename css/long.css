@@ -1,0 +1,381 @@
+@font-face {
+    font-family: gillsans;
+    src: url(GillSans.ttc);
+}
+
+@font-face {
+    font-family: georgia;
+    src: url(Georgia.ttf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#image {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    height: 750px;
+    width: 1100px;
+    z-index: -2;
+}
+
+.container {
+    width: 1000px;
+    height: 4000px;
+    overflow: hidden;
+    position: absolute;
+}
+        
+
+#block1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+    z-index: -1;
+}
+
+#block2 {
+    position: absolute;
+    left: 0px;
+    top: 850px;
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+}
+
+.news {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    font-family: gillsans;
+    
+}
+
+.sports {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+.life {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 210px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+.obituaries {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 280px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+.opinion {
+    color: #9e191a;
+    font-size:22px;
+    position: absolute;
+    left: 415px;
+    top: 10px;
+    font-family: gillsans;
+}
+
+#line {
+    background-color: #9e191a;
+    width: 950px;
+    height: 6px;
+    position: absolute;
+    left: 222px;
+    top: 68px;
+}
+
+#upline {
+    background-color: #9e191a;
+    width: 6px;
+    height: 25px;
+    position: absolute;
+    left: 222px;
+    top: 44px;
+
+}
+
+#logo {
+    position: absolute;
+    left: 820px;
+    top: 10px;
+}
+
+
+#titleline {
+    background-color: #9e191a;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+
+
+#upblock {
+    background-color: white;
+    width: 100px;
+    height: 900px;
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+
+#titleline2 {
+    background-color: #9e191a;
+    width: 250px;
+    height: 35px;
+    position: absolute;
+    left: 750px;
+    top: 220px;
+}
+
+#header {
+    position: absolute;
+    font-family: gillsans;
+    font-size: 60px;
+    color: #9e191a;
+    left: 220px;
+    top: 140px;
+    
+}
+
+#header2 {
+    position: absolute;
+    font-family: gillsans;
+    font-size: 60px;
+    color: #9e191a;
+    left: 90px;
+    top: 209px;
+}
+
+#red {
+    color: #9e191a;
+    font-style: italic;
+    
+}
+
+#author {
+    font-family: georgia;
+    position: absolute;
+    left: 220px;
+    top: 290px;
+    font-size: 15px;
+}
+
+#body {
+    font-family: georgia;
+    position: absolute;
+    left: 190px;
+    top: 990px;
+    font-size: 15px;
+    width: 710px;
+    line-height: 1.5;
+}
+
+#imgline {
+    background-color: #9e191a;
+    width: 1000px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 348px;
+}
+
+#caption {
+    position: absolute;
+    left: 190px;
+    top: 860px;
+    color: #9e191a;
+    font-size: 20px;
+    font-style: italic;
+    height: 100px;
+    width: 710px;
+    
+}
+
+#life2 {
+    position: absolute;
+    left: 190px;
+    top: 1960px;
+    height: 250px;
+    
+}
+
+#body2 {
+    font-family: georgia;
+    position: absolute;
+    left: 590px;
+    top: 1960px;
+    font-size: 15px;
+    width: 305px;
+    line-height: 1.5;
+}
+
+#caption2 {
+    position: absolute;
+    left: 190px;
+    top: 2220px;
+    color: #9e191a;
+    font-size: 15px;
+    font-style: italic;
+    height: 70px;
+    width: 370px;
+}
+
+
+#body3 {
+    font-family: georgia;
+    position: absolute;
+    left: 190px;
+    top: 2291px;
+    font-size: 15px;
+    width: 710px;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #9e191a;
+    width: 350px;
+    height: 6px;
+    position: absolute;
+    left: 0px;
+    top: 3780px;
+    
+}
+
+#footer2 {
+    background-color: #9e191a;
+    width: 350px;
+    height: 6px;
+    position: absolute;
+    left: 650px;
+    top: 3780px;
+    
+}
+
+#facebook {
+    position: absolute;
+    left: 390px;
+    top: 3770px;
+    width: 30px;
+    height: 30px;
+}
+
+#twitter {
+    position: absolute;
+    left: 450px;
+    top: 3770px;
+    width: 30px;
+    height: 30px;
+}
+
+#linkedin {
+    position: absolute;
+    left: 510px;
+    top: 3770px;
+    width: 30px;
+    height: 30px;
+}
+
+#gmail {
+    position: absolute;
+    left: 570px;
+    top: 3770px;
+    width: 30px;
+    height: 30px;
+}
+
+#bottom {
+    position: absolute;
+    background-color: #9e191a;
+    left: 0px;
+    top: 3900px;
+    height: 100px;
+    width: 1000px;
+}
+
+#woodbury {
+    position: absolute;
+    left: 300px;
+    top: 3930px;
+    color: white;
+    font-family: gillsans;
+    
+}
+
+
+#woodbury2 {
+    position: absolute;
+    left: 250px;
+    top: 3950px;
+    color: white;
+    font-family: gillsans;
+    
+}
+
+#white {
+    background-color: white;
+    width: 900px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    top: 3980px;
+    
+}
+
+
+#white2 {
+    background-color: white;
+    width: 900px;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    top: 3920px;
+    
+}
+
+
+#ad {
+    position: absolute;
+    left:20px;
+    top: 1200px;
+    width: 150px;
+}
+
+#video {
+    position: absolute;
+    left: 220px;
+    top: 3420px;
+}
+
+#capline {
+    position: absolute;
+    left: 0px;
+    top: 865px;
+    background-color: #9e191a;
+    width: 180px;
+    height: 6px;
+}
